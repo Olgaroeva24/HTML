@@ -1,0 +1,22 @@
+h1 {
+    color: blueviolet;
+    font-size: 16px;
+}
+h2 {
+    color: darkslategray;
+    font-size: 16px;
+}
+caption{
+    color: green;
+    font-size: 16px;
+}
+
+table {
+    border-collapse: collapse;
+
+    border: 1px solid grey;
+
+}
+th, td {
+    border: 1px solid grey;
+}

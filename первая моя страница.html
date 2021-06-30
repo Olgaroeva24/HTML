@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> первая моя страница</title>
+  <a href="моя вторая страница.html">Моя вторая страница</a>
+  <a href="моя первая  страница.html">Моя первая страница</a>
+  <link type="text/css" rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<h2>Регистрация</h2>
+<form action="/handler.php" method="post">
+  <label for="name">Имя</label>
+  <input type="text" name="name"/>
+  <input type="radio" name="sex" value="мужской">мужской
+  <input type="radio" name="sex" value="женский">женский
+  <label for="email">E-mail</label>
+  <input type="email" name="email" />
+</form>
+<label for="country">Страна</label>
+<select name="country">
+  <option>Выберите страну проживания</option>
+  <option> value="Россия">Россия</option>
+  <option> value="Украина">Украина</option>
+  <option> value="Беларусь">Беларусь</option>
+  <p>Оставьте Ваш отзыв:</p>
+  <p><textarea  rows="10" cols="45" name="text"></textarea></p>
+  <p><input type="submit" value="Отправить"></p>
+  <h3>Викторина</h3>
+  <p>какие автомобили самые популярные в Германии?</p>
+  <p><input type="checkbox" name="a" value="Смарт"> Смарт</p>
+  <p><input type="checkbox" name="a" value="BMW" checked>BMW </p>
+  <p><input type="checkbox" name="a" value="Mercedes-AMG" checked> Mercedes-AMG</p>
+  <p><input type="checkbox" name="a" value="Skoda">Skoda</p>
+  <p><input type="checkbox" name="a" value="Lamborghini">Lamborghini</p>
+  <p><input type="submit" value="Отправить"></p>
+</body>
+</html>
+
+
+
+
